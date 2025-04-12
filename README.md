@@ -1,6 +1,6 @@
 # Portfolio25
 
-**Portfolio25** is my portfoli0 in 2025, It is a modern and interactive portfolio website built with **Next.js**, **React.js**, **Three.js**, and **Framer Motion**. This portfolio features dynamic animations, interactive 3D elements, and a sleek design, created to showcase my skills and professional background in 2025.
+**Portfolio25** is my portfolio in 2025, It is a modern and interactive portfolio website built with **Next.js**, **React.js**, **Three.js**, and **Framer Motion**. This portfolio features dynamic animations, interactive 3D elements, and a sleek design, created to showcase my skills and professional background in 2025.
 
 ## ✨ Features
 - **Hero Section**: A captivating introduction with a spotlight effect and dynamic background for an eye-catching first impression.
