@@ -37,12 +37,12 @@ const Footer = () => {
 
           <div className="w-full flex items-center justify-between mt-16 max-sm:flex-col md:gap-3 gap-6 relative z-1">
             <p className="md:text-base text-sm md:font-normal font-light">
-                Copyright © 2024 Adrian Hajdin
+                Copyright © 2024 Yahia Badr
             </p>
 
             <ul className="flex gap-2">
-                { socialMedia.map(({id,img}) => (
-                    <Link href={'/#social'} key={id} target='_blank'>
+                { socialMedia.map(({id,img,link}) => (
+                    <Link href={link} key={id} >
                         <div className='cursor-pointer w-11 h-11 rounded-lg border border-[rgb(26_30_57)] flex-center shadow-[inset_0px_0px_8px_0.82px_rgba(255,255,255,0.10)]'>
                             <Image src={img} alt="icons" width={23} height={23} />
                         </div>

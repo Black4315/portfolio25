@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Tree</title>
+    <style>
+        body {
+            background-color: #0f0f1a;
+            font-family: sans-serif;
+            padding: 40px;
+            color: white;
+        }
+
+        .node-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .node {
+            background-color: #1e1e2f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            z-index: 2;
+            box-shadow: 0 0 8px #a855f7aa;
+        }
+
+        .line-vertical {
+            width: 2px;
+            height: 40px;
+            background-color: #a855f7;
+            border-radius: 9999px;
+            position: relative;
+        }
+
+        .child-wrapper {
+            position: relative;
+            display: flex;
+            gap: 40px;
+            margin-top: 10px;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .line-horizontal {
+            position: absolute;
+            top: -20px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #a855f7;
+            z-index: 1;
+            border-radius: 9999px;
+        }
+
+        /* Optional: little dot for joints */
+        .line-vertical::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #a855f7;
+            border-radius: 50%;
+            box-shadow: 0 0 6px #a855f7aa;
+        }
+
+        .line-horizontal::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #a855f7;
+            border-radius: 50%;
+            box-shadow: 0 0 6px #a855f7aa;
+        }
+
+        .line-horizontal::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #a855f7;
+            border-radius: 50%;
+            box-shadow: 0 0 6px #a855f7aa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="node-wrapper">
+        <div class="node">Home</div>
+        <div class="line-vertical"></div>
+        <div class="child-wrapper">
+            <div class="line-horizontal"></div>
+            <div class="node">Services</div>
+            <div class="node">Portfolio</div>
+            <div class="node">Blog</div>
+        </div>
+        <f>yahia
+            <input type="text">
+        </f>
+    </div>
+
+</body>
+
+</html>

@@ -1,3 +1,30 @@
+import { m } from "motion/react";
+import React from "react";
+
+import {
+  FaSass,
+  FaReact,
+  FaGitAlt,
+  FaCss3Alt, FaFigma, FaHtml5, FaJs, FaPython
+} from 'react-icons/fa';
+import { MdBuild } from "react-icons/md";
+import {
+  SiTailwindcss,
+  SiJquery,
+  SiTypescript,
+  SiNextdotjs,
+  SiGreensock,
+  SiThreedotjs,
+  SiVite,
+  SiFramer,
+  SiDjango,
+  SiAdobephotoshop,
+  SiFigma,
+  SiLinux,
+} from 'react-icons/si';
+
+
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -218,14 +245,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: 'https://github.com/Black4315',
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: '#',
   },
   {
     id: 3,
     img: "/link.svg",
+    link: 'https://www.linkedin.com/in/yahia-badr-4306b5308/',
   },
 ];
 
@@ -252,7 +282,69 @@ export const approach = [
     order: 'Phase 3',
     title: "Development & Launch",
     des: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
-    otherProp: { colors: [[125, 211, 252]],}
-    
+    otherProp: { colors: [[125, 211, 252]], }
+
   }
 ]
+
+
+export const skills = [
+  { Icon: FaHtml5, name: 'HTML', prog: 97, category: 'Front-End', color: '#f06529' },
+  { Icon: FaCss3Alt, name: 'CSS', prog: 90, category: 'Front-End', color: '#264de4' },
+  { Icon: FaSass, name: 'SCSS', prog: 90, category: 'Front-End', color: '#cd6799' },
+  { Icon: SiTailwindcss, name: 'Tailwind', prog: 90, category: 'Front-End', color: '#38bdf8' },
+
+  { Icon: FaJs, name: 'JavaScript', prog: 90, category: 'Front-End', color: '#f0db4f' },
+  { Icon: SiTypescript, name: 'TypeScript', prog: 90, category: 'Front-End', color: '#007acc' },
+  { Icon: SiJquery, name: 'jQuery', prog: 90, category: 'Front-End', color: '#0769ad' },
+  { Icon: FaReact, name: 'React.js', prog: 90, category: 'Front-End', color: '#61dafb' },
+  { Icon: SiNextdotjs, name: 'Next.js', prog: 90, category: 'Front-End', color: '#ffffff' }, 
+  { Icon: SiThreedotjs, name: 'Three.js', prog: 90, category: 'Front-End', color: '#f9f9f9' },
+  { Icon: SiGreensock, name: 'GSAP', prog: 90, category: 'Front-End', color: '#88ce02' },
+  { Icon: SiFramer, name: 'Framer Motion', prog: 90, category: 'Front-End', color: '#ffffff' },
+  { Icon: SiVite, name: 'Vite', prog: 90, category: 'Front-End', color: '#646cff' },
+
+  { Icon: FaPython, name: 'Python', prog: 90, category: 'Back-End', color: '#306998' },
+  { Icon: SiDjango, name: 'Django', prog: 90, category: 'Back-End', color: '#44b78b' }, 
+
+  { Icon: FaGitAlt, name: 'Git', prog: 90, category: 'Tools & Platforms', color: '#f05032' },
+  { Icon: SiAdobephotoshop, name: 'Photoshop', prog: 90, category: 'Tools & Platforms', color: '#31a8ff' },
+  { Icon: SiFigma, name: 'Figma', prog: 90, category: 'Tools & Platforms', color: '#f24e1e' }, 
+  { Icon: SiLinux, name: 'Linux', prog: 90, category: 'Tools & Platforms', color: '#ffffff' },
+];
+
+// export const skills = [
+//   {
+//     skill: 'Front-End',
+//     items: [
+//       { Icon: FaHtml5, name: 'HTML', prog: 97 },
+//       { Icon: FaCss3Alt, name: 'CSS', prog: 90 },
+//       // { Icon: '', name: 'SCSS', prog: 90 },
+//       // { Icon: '', name: 'Tailwind', prog: 90 },
+//       // { Icon: '', name: 'CSS 3D', prog: 90 },
+//       { Icon: FaJs, name: 'JavaScript', prog: 90 },
+//       // { Icon: '', name: 'TypeScript', prog: 90 },
+//       // { Icon: '', name: 'jQuery', prog: 90 },
+//       // { Icon: '', name: 'React.js', prog: 90 },
+//       // { Icon: '', name: 'Next.js', prog: 90 },
+//       // { Icon: '', name: 'GSAP', prog: 90 },
+//       // { Icon: '', name: 'Three.js', prog: 90 },
+//       // { Icon: '', name: 'Framer Motion', prog: 90 },
+//       // { Icon: '', name: 'Vite', prog: 90 }
+//     ]
+//   },
+//   {
+//     skill: 'Back-End',
+//     items: [
+//       { Icon: FaPython, name: 'Python', prog: 90 },
+//       // { Icon: '', name: 'Django', prog: 90 }
+//     ]
+//   },
+//   {
+//     skill: 'Tools & Platforms',
+//     items: [
+//       { Icon: FaHtml5, name: 'Git', prog: 90 },
+//       { Icon: FaHtml5, name: 'Photoshop', prog: 90 }
+//     ]
+//   }
+// ];
