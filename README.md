@@ -9,7 +9,7 @@
 - **Testimonials Section**: Displays dynamic, scrolling or animated testimonials for social proof and engagement.
 - **Work Experience**: Prominent display of professional background with an emphasis on credibility.
 - **Canvas Effect**: Innovative use of the HTML5 canvas for striking visual effects in the "approaches" section.
-- **Skills Section with Lame Effect**: The skill section features a smooth "lame" animation effect, adding an interactive touch as the skills are revealed.
+- **Skills Section**: The skill section features a smooth "lamp" animation effect, adding an interactive touch as the skills are revealed.
 - **Responsiveness**: Fully responsive design to ensure an optimal viewing experience across all devices.
 
 ## 🚀 Tech Stack
