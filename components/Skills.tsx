@@ -27,7 +27,8 @@ const Skills = () => {
           className="w-full max-h-80"
         > */}
 
-      <div className="flex-center  w-full flex-col mt-16">
+      <div className="flex-center  w-full flex-col mt-16"> 
+        
         <div className=' flex-center gap-6 md:gap-8 flex-wrap'>
           {skills.map(({ Icon, name, prog, color }) => (
             <CustomTooltip title={name} arrowSx={{ color: color }}>
