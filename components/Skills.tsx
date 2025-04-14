@@ -31,12 +31,12 @@ const Skills = () => {
         
         <div className=' flex-center gap-6 md:gap-8 flex-wrap'>
           {skills.map(({ Icon, name, prog, color }) => (
-            <CustomTooltip title={name} arrowSx={{ color: color }}>
+            <CustomTooltip key={name} title={name} arrowSx={{ color: color }}>
               <span
-                className="text-5xl  shadow-[0_0_150px_#a75cef]  rounded-full text-black-100 p-4 backdrop-blur-xl hover:scale-105 transition duration-500"
+                className="text-3xl md:text-5xl nshadow-[0_0_150px_#a75cef]  rounded-full text-black-100 p-4 backdrop-blur-xl hover:scale-105 transition duration-500"
                 style={{
                   background: color,
-                  // boxShadow: `0 0 60px #a855f780`, // 80 = 50% opacity in hex
+                  boxShadow: `0 0 60px ${color}80`, // 80 = 50% opacity in hex #a855f7
                 }}
               >
                 <Icon />

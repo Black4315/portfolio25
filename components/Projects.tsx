@@ -23,7 +23,7 @@ const Projects = () => (
                                 <img src="/bg.png" alt="bgimg" />
 
                             </div>
-                            <Image src={img} width={370} height={370} alt={img} className="z-10 max-sm:w-[300px] absolute bottom-0 object-cover" />
+                            <Image src={img} width={370} height={370} alt={img} className="z-10 max-sm:w-[300px] absolute top-[28px] rotate-[2.16deg] rounded-[10px] object-cover" />
                         </div>
                         <h1 className="font-bold text-base md:text-xl lg:text-2xl line-clamp-1">{title}</h1>
 
