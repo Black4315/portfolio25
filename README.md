@@ -26,5 +26,12 @@
 ## 🌐 Demo
 [visti my portfolio](https://portfolio25-one.vercel.app)
 
+## 🧑‍💻 Let's Work Together
+
+I’m open for custom projects and freelance work!
+
+📩 Reach me at **[yahialord4315@gmail.com](mailto:yahialord4315@gmail.com)**  
+or check out my **[portfolio](https://portfolio25-one.vercel.app/)**.
+
 ## License
 MIT License © 2025 Yahia Badr
