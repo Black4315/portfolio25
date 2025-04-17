@@ -28,7 +28,8 @@ import {
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -76,7 +77,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Refining complex interfaces through clean architecture",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -110,14 +111,14 @@ export const projects = [
     id: 2,
     title: "AI chatbot – BrainwaveCurve",
     des: "A landing page showcasing benefits and roadmap of AI chatbot with bold visuals, animations, and modern design trends. Built with Vite, React, GSAP, and Tailwind.",
-    img: "/screenshot.png",
+    img: "/brainwave.png",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/gsap.svg"],
     link: "https://github.com/Black4315/brainwave",
   },
   {
     id: 3,
     title: "3D - Earth",
-    des: "🌍 A beautiful, interactive 3D globe built with Three.js. Smooth animations, clean design, and a real-world feel.",
+    des: "A beautiful, interactive 3D globe built with Three.js. Smooth animations, clean design, and a real-world feel.",
     img: "/3d-earth.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
     link: "https://github.com/Black4315/3jsEarth",
@@ -152,35 +153,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    img: '/profile.svg',
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    img: '/profile.svg',
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    img: '/profile.svg',
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    img: '/profile.svg',
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Yahia feels like working with someone who gets both code and people — reliable, thoughtful, and always pushing for better outcomes",
     name: "Michael Johnson",
     img: '/profile.svg',
     title: "Director of AlphaStream Technologies",
@@ -224,28 +197,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in building interactive UIs using React.js, Tailwind CSS, and TypeScript, improving user engagement and performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Fullstack Developer ",
+    desc: "Designed and developed a dynamic web application using Next.js and Django, integrating REST APIs and delivering a seamless user experience across the stack.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the development of a responsive web app for a client, from concept to full deployment.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Architected and maintained production-level interfaces using Next.js, GSAP, and Three.js, focusing on performance, accessibility, and immersive UX. Collaborated closely with backend teams integrating Django.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -259,8 +232,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: '#',
+    img: "/wsp.svg",
+    link: 'https://wa.me/201019153027',
   },
   {
     id: 3,
@@ -274,12 +247,12 @@ export const approach = [
   {
     order: 'Phase 1',
     title: "Planning & Strategy",
-    des: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+    des: "We'll start by understanding your project's purpose, audience, and goals. I'll help outline the ideal structure, core features, and tech stack to bring your idea to life..",
   },
   {
     order: 'Phase 2',
-    title: "Development & Progress Update",
-    des: "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+    title: "Development & Progress",
+    des: "Once everything’s aligned, I’ll jump into the build process — setting up the architecture, writing clean code, and keeping you in the loop with regular updates as things come together.",
     otherProp: {
       colors: [
         [255, 166, 158],
@@ -290,8 +263,8 @@ export const approach = [
   },
   {
     order: 'Phase 3',
-    title: "Development & Launch",
-    des: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+    title: "Final Touches & Launch",
+    des: "After testing and final adjustments, your site is ready to go live. I’ll ensure it’s optimized, responsive, and running smoothly — and I’ll be here if you need anything post-launch.",
     otherProp: { colors: [[125, 211, 252]], }
 
   }

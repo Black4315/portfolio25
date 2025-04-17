@@ -26,7 +26,7 @@ const Footer = () => {
             </h1>
               <p className='text-white-200 text-base md:mt-10 my-5'>Reach out to me today and let's discuss how I can help you achieve your goals.</p>
 
-            <Link href={'/#mail'}>
+            <Link href={'mailto:yahialord4315@gmail.com'}>
                   <MagicButton 
                       title="Let's get in touch"
                       icon={<PiArrowUpRightBold />}
@@ -42,7 +42,7 @@ const Footer = () => {
 
             <ul className="flex gap-2">
                 { socialMedia.map(({id,img,link}) => (
-                    <Link href={link} key={id} >
+                    <Link href={link} key={id} target='_blank'>
                         <div className='cursor-pointer w-11 h-11 rounded-lg border border-[rgb(26_30_57)] flex-center shadow-[inset_0px_0px_8px_0.82px_rgba(255,255,255,0.10)]'>
                             <Image src={img} alt="icons" width={23} height={23} />
                         </div>

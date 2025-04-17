@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <Projects />
-        <Clients />
+        {/* <Clients /> */}
         <Experience />
         <Skills />
         <Approach />
