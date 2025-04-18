@@ -11,12 +11,12 @@ const Skills = () => {
   const [skillSelected, setskillSelected] = useState(0)
   const [anim, setanim] = useState(false)
   return (
-    <section id='skills' className='py-20 smd:pb-0'>
+    <section id='skills' className='py-20 pb-0'>
       <h1 className="heading">
         My {" "} <span className="text-purple">Skills</span>
       </h1>
 
-      <LampContainer>
+      <LampContainer >
         <motion.div
           initial={{ opacity: 0.5, y: 190 }}
           whileInView={{ opacity: 1, y: 120 }}
@@ -41,20 +41,20 @@ const Skills = () => {
                         `0 0 0px ${color}00`,    // off
                         `0 0 30px ${color}40`,   // dim
                         `0 0 0px ${color}00`,    // off again
-                        // `0 0 0px ${color}00`,    // off
-                        // `0 0 30px ${color}40`,   // dim
-                        // `0 0 0px ${color}00`,    // off again
                         `0 0 0px ${color}00`,    // off
                         `0 0 30px ${color}40`,   // dim
                         `0 0 0px ${color}00`,    // off again
-                        `0 0 50px ${color}80`,   // flicker
+                        `0 0 0px ${color}00`,    // off
+                        `0 0 30px ${color}40`,   // dim
+                        `0 0 0px ${color}00`,    // off again
+                        `0 0 50px ${color}60`,   // flicker
                         `0 0 20px ${color}40`,   // dip
                         `0 0 60px ${color}80`,   // final glow
                       ],
                     }}
                     transition={anim ? {
-                      delay:0.7,
-                      duration: 1.4,
+                      delay:0.5,
+                      duration: 2,
                       times: [0, 0.1, 0.2, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 0.9, 0.95, 1],
                       ease: "easeInOut",
                     

@@ -1,8 +1,14 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridItems } from '@/data'
 
 const Grid = () => {
+
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+    document.body.style.pointerEvents = "auto";
+  },[])
   return (
     <section id='about'>
       <BentoGrid >
