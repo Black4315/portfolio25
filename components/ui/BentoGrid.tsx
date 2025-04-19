@@ -3,7 +3,11 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnim } from "./BackgroundGradientAnim";
 import { GlobeDemo } from "./GlobeDemo";
 import { useState } from "react";
-// import Lottie from "react-lottie";
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('react-lottie'), {
+  ssr: false,
+});
 
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
@@ -150,9 +154,10 @@ export const BentoGridItem = ({
           {id == 6 && (<div className="mt-5" tabIndex={0}>
 
             <div
-              className={`absolute -bottom-5 right-0`}
+              className={`absolute -bottom-5 right-6`}
             >
-              {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+              <Lottie options={defaultOptions} height={200} width={400} />
+              {/* <Image src={'/confetti.gif'} alt={'confetti'} height={200} width={400} /> */}
             </div>
 
             <MagicButton
