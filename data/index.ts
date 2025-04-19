@@ -91,7 +91,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-70 text-center",
     img: "",
     spareImg: "",
   },
@@ -104,7 +104,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website with GSAP animations and Three.js 3D effects.",
     img: "/3d-iphone.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/Black4315/3d-iphone",
+    link: "https://iphone3d-1.web.app",
     
   },
   {
@@ -113,7 +113,7 @@ export const projects = [
     des: "A landing page showcasing benefits and roadmap of AI chatbot with bold visuals, animations, and modern design trends. Built with Vite, React, GSAP, and Tailwind.",
     img: "/brainwave.png",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/gsap.svg"],
-    link: "https://github.com/Black4315/brainwave",
+    link: "https://brainwave-2.web.app",
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ export const projects = [
     des: "A beautiful, interactive 3D globe built with Three.js. Smooth animations, clean design, and a real-world feel.",
     img: "/3d-earth.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
-    link: "https://github.com/Black4315/3jsEarth",
+    link: "https://threejsearth.web.app",
   },
   {
     id: 4,
@@ -129,7 +129,7 @@ export const projects = [
     des: "Luxurious Tic-Tac-Toe game with smooth animations, (4) AI levels, history tracker, and celebratory effects.",
     img: "/xogame1.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg",],
-    link: "https://github.com/Black4315/Tic-Tac-Toe",
+    link: "https://xo-game1.web.app",
   },
   {
     id: 5,
@@ -137,7 +137,7 @@ export const projects = [
     des: "Responsive developer portfolio with a dark luxury theme, showcase personal projects, skills, and contact info. Built using HTML, CSS, and JavaScript",
     img: "/newpost.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg",],
-    link: "https://github.com/Black4315/portfolioNewPost",
+    link: "https://newpost-1.web.app",
   },
   {
     id: 6,
@@ -145,7 +145,7 @@ export const projects = [
     des: "WebNest is a lightweight Python framework designed for building web applications quickly. It offers easy project setup, server management, database integration, and custom HTML tags (similar to Jinja2) for dynamic content rendering, such as {{ title }}. WebNest also features simple routing to streamline your development process.",
     img: "/webnest.png",
     iconLists: ["/python.svg"],
-    link: "https://github.com/Black4315/webnest",
+    link: "https://pypi.org/project/webnest",
   },
   
 ];
@@ -211,14 +211,14 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the development of a responsive web app for a client, from concept to full deployment.",
+    desc: "Led the development of a responsive web app, managing all stages from concept to deployment, ensuring a seamless user experience and optimal performance.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Architected and maintained production-level interfaces using Next.js, GSAP, and Three.js, focusing on performance, accessibility, and immersive UX. Collaborated closely with backend teams integrating Django.",
+    desc: "Architected and maintained production-level interfaces with Next.js, GSAP, and Three.js, focusing on performance, accessibility, and immersive UX, while backend teams on Django.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

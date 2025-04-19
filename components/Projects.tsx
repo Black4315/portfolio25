@@ -32,9 +32,9 @@ const Projects = () => (
                         </p>
 
                         <div className="flex items-center justify-between mt-7">
-                            <div className="flex-center">
+                            <div className="flex items-center justify-start flex-grow-[0.3]">
                                 {iconLists.map((icon, index) => (
-                                    <div key={index} className={`rounded-full border border-[rgb(26_30_57)] w-12 aspect-square flex-center bg-gradient-90 
+                                    <div key={index} className={`rounded-full border border-[rgb(26_30_57)] w-full max-w-12 aspect-square flex-center bg-gradient-90 
                                         ${index !=0 ?'-mx-1':'-mr-1'}`}>
                                         <Image src={icon} width={37} height={37} alt={icon} className="p-2" />
 

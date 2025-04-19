@@ -7,6 +7,16 @@
 }
 
 @layer base {
+  ::-moz-selection {
+      /* Code for Firefox */
+      color: rgb(255, 255, 255);
+      background: #CBACF9;
+    }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: #6d4d9c;
+  }
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;

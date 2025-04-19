@@ -19,6 +19,8 @@ export const CustomTooltip: React.FC<CustomTooltipProps> = ({
         title={title}
         arrow
         placement="top"
+        enterTouchDelay={0.3}    
+        leaveTouchDelay={1000}  
         {...restProps}
         componentsProps={{
             tooltip: {
@@ -31,7 +33,7 @@ export const CustomTooltip: React.FC<CustomTooltipProps> = ({
                     boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
                     transition: 'all 0.3s ease',
                 },
-                className: `${classNameTip} transition duration-500`, // tailwind support
+                className: `${classNameTip} transition duration-500`,
             },
             arrow: {
                 sx: {
@@ -43,4 +45,5 @@ export const CustomTooltip: React.FC<CustomTooltipProps> = ({
     >
         {children}
     </Tooltip>
+
 );
