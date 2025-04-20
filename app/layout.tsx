@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     siteName: "Yahia's Portfolio",
     images: [
       {
-        url: "https://portfolio25-one.vercel.app/og-image.jpg",
+        url: "https://portfolio25-one.vercel.app/portfolio.png",
         width: 1200,
-        height: 630,
+        height: 600,
         alt: "Yahia's Portfolio Preview",
       },
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Yahia's Portfolio - Crafting Digital Excellence",
     description:
       "Step into Yahia's world of digital craftsmanship. Explore a portfolio that blends cutting-edge web development, interactive 3D designs, and seamless user experiences to leave a lasting impression.",
-    images: ["https://portfolio25-one.vercel.app/og-image.jpg"],
+    images: ["https://portfolio25-one.vercel.app/portfolio.png"],
   },
 };
 export default function RootLayout({

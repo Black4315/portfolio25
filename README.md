@@ -21,7 +21,7 @@
 
 ## 📸 Snapshot
 
-![Portfolio Snapshot](assets/images/portfolio25-snapshot.png)
+![Portfolio Snapshot](/public//portfolio.png)
 
 ## 🌐 Demo
 [visti my portfolio](https://portfolio25-one.vercel.app)
