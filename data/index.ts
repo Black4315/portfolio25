@@ -228,7 +228,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: 'https://github.com/Black4315',
+    link: '#',//https://github.com/Black4315',
   },
   {
     id: 2,
