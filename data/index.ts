@@ -228,17 +228,22 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: '#',//https://github.com/Black4315',
+    link: 'https://github.com/Black4315',
   },
   {
     id: 2,
+    img: "/x.svg",
+    link: 'https://x.com/yahiabadr4315',
+  },
+  {
+    id: 3,
     img: "/wsp.svg",
     link: 'https://wa.me/201019153027',
   },
   {
-    id: 3,
+    id: 4,
     img: "/link.svg",
-    link: 'https://www.linkedin.com/in/yahia-badr-4306b5308/',
+    link: 'https://www.linkedin.com/in/yahia-badr-390797364/',
   },
 ];
 
