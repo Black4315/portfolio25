@@ -1,6 +1,8 @@
 <div align="center">
   <br />
-  <img src="./public/portfolio_for_github.png" alt="Portfolio25 Snapshot" />
+    <a href="https://portfolio25-one.vercel.app" target="_blank">
+        <img src="./public/portfolio_for_github.png" alt="Portfolio25 Snapshot" />
+    </a>
   <br />
   <div>
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
