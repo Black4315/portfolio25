@@ -39,7 +39,7 @@
 - **Skills Display**: Responsive skill grid with a smooth lamp-hover animation  
 - **Fully Responsive**: Optimized for all devices and screen sizes
 
-
+---
 
 ## Tech Stack
 
@@ -51,6 +51,7 @@
 
 Live Preview [View Portfolio25](https://portfolio25-one.vercel.app)
 
+---
 
 ## Get in Touch
 
